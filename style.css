@@ -1,0 +1,194 @@
+header{
+    background: #21364A;
+    padding: 30px 0;
+}
+body{
+    margin: 0;
+}
+.nav_list{
+    display: flex;
+    width: 628px;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav_link{
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.container{
+    width: 1200px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home{
+    background: #305523;
+    padding: 30px 0;
+}
+.home_info{
+    width: 453px;
+}
+.home_title{
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72px;
+    margin: 0 0 20px;
+    color: #381616;
+}
+.home_desc{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    margin: 0 0 50px;
+    color: #381616;
+}
+.home_btn{
+    background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+    box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.48);
+    border-radius: 6px;
+    width: 224px;
+    height: 47px;
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #1A4670;
+}
+.about{
+    padding: 30px 0;
+    background: #EB0000;
+}
+.about_title{
+    text-align: center;
+    margin: 0 0 20px;
+    font-size: 30px;
+    color: aquamarine;
+}
+.about_info{
+    width: 384px;
+    list-style: none;
+}
+.about_text{
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FDFDFD;
+}
+.rating{
+    height: 10px;
+    background: #08333D;
+}
+.rating1{
+    height: 100%;
+    width: 90%;
+    background: #C100C5;
+}
+.rating2{
+    height: 100%;
+    width: 60%;
+    background: #C100C5;
+}
+.rating3{
+    height: 100%;
+    width: 40%;
+    background: #C100C5;
+}
+.video{
+    padding: 30px 0;
+    background: #A2227E;
+}
+.video_title{
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    margin: 0 0 50px;
+    color: #000000;
+    text-align: center;
+}
+.video_container{
+    background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+    box-shadow: 0px 4px 15px rgba(27, 27, 27, 0.28);
+    border-radius: 29px;
+    width: 970px;
+    height: 600px;
+    margin: 0 auto;
+}
+.video_content{
+    width: 881px;
+    height: 511px;
+    padding: 44px;
+}
+.gallery{
+    background: #3E3E3E;
+    padding: 30px 0;
+}
+.gallery_title{
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    margin: 0 0 50px;
+    color: #E4E4E4;
+    text-align: center;
+}
+.gallery_list{
+    display:flex ;
+    padding: 0;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.gallery_item{
+    width: 33%;
+}
+.gallery_img{
+    width: 100%;
+}
+.container_footer{
+    display:flex ;
+    justify-content: space-between;
+
+}
+footer{
+    background: #FF0000;
+}
+.footer_title{
+    font-family: 'Nico Moji';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 30px;
+color: snow;
+}
+.footer_list{
+    display: flex;
+    list-style: none;
+    
+}
+.footer_item:not(:last-child){
+    margin-right: 20px;
+}
+.footer_text.{
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px; 
+    line-height: 30px;
+    color: snow;
+}
